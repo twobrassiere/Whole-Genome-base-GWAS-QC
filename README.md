@@ -1,7 +1,7 @@
 # Whole-Genome-base-GWAS-QC
 The GWAS QC had 5 parts:
 
-Step1, Joint variant calling was performed separately for each cohort—comprising 748 female Taiwan Biobank participants and 269 female breast cancer patients  —using the DRAGEN Iterative gVCF Genotyper (IGG).
+[Step1](https://github.com/twobrassiere/Whole-Genome-base-GWAS-QC/tree/main/Step1_Joint_calling_by_IGG), Joint variant calling was performed separately for each cohort—comprising 748 female Taiwan Biobank participants and 269 female breast cancer patients  —using the DRAGEN Iterative gVCF Genotyper (IGG).
 
 Step2, We utilized high-confidence regions from the HG002 reference sample and applied bcftools to ensure a missingness rate of less than 2% across each cohort.
 Merged the VCF files from both cohorts without batch effect correction to perform subsequent Quality Control (QC) and ancestry analysis
@@ -17,5 +17,4 @@ Step3, [GWAS Quality Control](https://github.com/Annefeng/PBK-QC-pipeline) & Pop
          
    3. Refined PCA & Filtering: After batch effect removal, conducted a secondary PCA and applied standard QC filters:
       Excluded samples with high Heterozygosity (Het) or Identity-by-Descent (IBD) relatedness, and removed patients carrying known BRCA2 mutations.
-
-     
+Step4 Association testing was performed using the GCTA LOCO method. Significant loci were further visualized with [LocusZoom plots](https://my.locuszoom.org/gwas/135960/) to show regional association signals. We use 
