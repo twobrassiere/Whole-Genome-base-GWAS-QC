@@ -25,5 +25,5 @@ Step3, [GWAS Quality Control](https://github.com/Annefeng/PBK-QC-pipeline) & Pop
 Figures for Steps 3–4 were produced in [Google Colab](https://colab.research.google.com/drive/1yGTzawkH-X8bxJX4IpxB7sDYm8BoI1bb), utilizing data hosted on and retrieved from [Google Drive folders](https://drive.google.com/drive/folders/1YzylhCcmy61k2Pt1fxY1ZDDKl7EuQTb5?usp=sharing).
 
 
-Finally, we observed a 2% variant discrepancy between different DRAGEN versions when processing the same 11 Taiwan Biobank (TWB) samples. All analyses were conducted in [Google Colab](https://colab.research.google.com/drive/1Vn0S8-1hmuHVk5D7MNC1zdUX26lpDaQ3?usp=drive_link), with the required datasets retrieved from shared [Google Drive folders]](https://drive.google.com/drive/folders/12bvqSECCmdcWjFUH70MMl0NR2d6HrUTV?usp=sharing).
+Finally, we observed a 2% variant discrepancy between different DRAGEN versions when processing the same 11 Taiwan Biobank (TWB) samples. All analyses were conducted in [Google Colab](https://colab.research.google.com/drive/1Vn0S8-1hmuHVk5D7MNC1zdUX26lpDaQ3?usp=drive_link), with the required datasets retrieved from shared [Google Drive folders](https://drive.google.com/drive/folders/12bvqSECCmdcWjFUH70MMl0NR2d6HrUTV?usp=sharing).
 
