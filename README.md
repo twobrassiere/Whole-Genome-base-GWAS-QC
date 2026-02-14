@@ -3,7 +3,7 @@ The GWAS QC had 5 parts:
 
 [Step1](https://github.com/twobrassiere/Whole-Genome-base-GWAS-QC/tree/main/Step1_Joint_calling_by_IGG), Joint variant calling was performed separately for each cohort—comprising 748 female Taiwan Biobank participants and 269 female breast cancer patients  —using the DRAGEN Iterative gVCF Genotyper (IGG).
 
-[Step2],(https://github.com/twobrassiere/Whole-Genome-base-GWAS-QC/tree/main/Step2_Variant_QC_by_bcftools) We utilized high-confidence regions from the HG002 reference sample and applied bcftools to ensure a missingness rate of less than 2% across each cohort.
+[Step2](https://github.com/twobrassiere/Whole-Genome-base-GWAS-QC/tree/main/Step2_Variant_QC_by_bcftools) We utilized high-confidence regions from the HG002 reference sample and applied bcftools to ensure a missingness rate of less than 2% across each cohort.
 [Merged the VCF files](https://github.com/twobrassiere/Whole-Genome-base-GWAS-QC/blob/main/Step2_Variant_QC_by_bcftools/Variant_QC_in_269_BC_merge_748_TWBs.sh) from both cohorts without batch effect correction to perform subsequent Quality Control (QC) and ancestry analysis
 Code for Steps 1 and 2 provided by [Jacob Shu-Jui Hsu](https://www.mc.ntu.edu.tw/medgenpro/Vcard.action?q_type=-1&q_itemCode=1100&l=en_US).
 
