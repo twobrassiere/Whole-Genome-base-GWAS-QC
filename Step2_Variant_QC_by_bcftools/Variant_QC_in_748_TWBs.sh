@@ -38,13 +38,3 @@
     --threads 112
 /work/opt/ohpc/Taiwania3/pkg/biology/BCFtools/bcftools_v1.18/bin/bcftools index -t -f \
      /staging/biology/elephant123/269_bc_and_748_TWB/filter_call_ratet_by_748_TWB.vcf.gz  --threads 112
-
-/work/opt/ohpc/Taiwania3/pkg/biology/BCFtools/bcftools_v1.18/bin/bcftools merge \
--Oz /staging/biology/elephant123/269_bc_and_748_TWB/filter_call_ratet_by_748_TWB.vcf.gz \
-/staging/biology/elephant123/269_bc_and_748_TWB/filter_call_ratet_by_270_BC.vcf.gz \
--o /staging/biology/elephant123/269_bc_and_748_TWB/filter_call_ratet_by_270_BC_and_748_TWB.vcf.gz \
---threads 112
-
-/work/opt/ohpc/Taiwania3/pkg/biology/BCFtools/bcftools_v1.18/bin/bcftools index -t -f \
-      /staging/biology/elephant123/269_bc_and_748_TWB/filter_call_ratet_by_270_BC_and_748_TWB.vcf.gz \
-        --threads 112
