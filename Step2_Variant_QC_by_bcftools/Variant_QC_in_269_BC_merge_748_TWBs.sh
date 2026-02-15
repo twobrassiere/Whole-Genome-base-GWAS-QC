@@ -53,6 +53,7 @@ aiwania3/pkg/biology/BCFtools/bcftools_v1.18/bin/bcftools merge \
  # 5. Index the filtered VCF
  /work/opt/ohpc/Taiwania3/pkg/biology/BCFtools/bcftools_v1.18/bin/bcftools index -t -f \
     /staging/biology/elephant123/269_bc_and_748_TWB/filter_call_ratet_by_270_BC_and_748_TWB.vcf.gz  --threads 112
+# 6. vcf convert plink format
 /work/opt/ohpc/Taiwania3/pkg/biology/PLINK2/PLINK_v2.00a3LM_AVX2_16Aug/plink2  \
 --vcf /staging/biology/elephant123/269_bc_and_748_TWB/filter_call_ratet_by_270_BC_and_748_TWB.vcf.gz  \
 --snps-only \
