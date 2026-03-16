@@ -23,11 +23,11 @@ conda activate /staging/biology/elephant123/Conda
 
 
 #a single-sample GVCF convert to vcf
-#/work/opt/ohpc/Taiwania3/pkg/biology/GATK/gatk_v4.2.3.0/gatk  \
-#--java-options "-Xmx7g" GenotypeGVCFs \
-#-R /staging/biology/elephant123/GATK/DRAGEN_hg38/hg38.fa \
-#-V {input_dir}/{sample_name}.vcf.gz \
-#-O {output_dir}/{sample_name}/{sample_name}.vcf.gz
+/work/opt/ohpc/Taiwania3/pkg/biology/GATK/gatk_v4.2.3.0/gatk  \
+--java-options "-Xmx7g" GenotypeGVCFs \
+-R /staging/biology/elephant123/GATK/DRAGEN_hg38/hg38.fa \
+-V {input_dir}/{sample_name}.vcf.gz \
+-O {output_dir}/{sample_name}/{sample_name}.vcf.gz
 
 mkdir  -p {output_dir}/{sample_name}/CYP2F1
 #Select the region around the CYP2F1 gene, extending upstream 3KB and downstream 1KB
