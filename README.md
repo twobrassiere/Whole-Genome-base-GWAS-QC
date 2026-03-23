@@ -7,7 +7,7 @@ Our GWAS QC workflow is divided into five parts. Included below are the [pipelin
 [Merged the VCF files](https://github.com/twobrassiere/Whole-Genome-base-GWAS-QC/blob/main/Step2_Variant_QC_by_bcftools/Variant_QC_in_269_BC_merge_748_TWBs.sh) from both cohorts without batch effect correction to perform subsequent Quality Control (QC) and ancestry analysis
 Code for Steps 1 and 2 provided by [Jacob Shu-Jui Hsu](https://www.mc.ntu.edu.tw/medgenpro/Vcard.action?q_type=-1&q_itemCode=1100&l=en_US)(Co-author).
 
-Step3, [GWAS Quality Control](https://github.com/Annefeng/PBK-QC-pipeline) & Population Analysis (Reviewed by [Anna Feng](https://fenglab520.github.io/author/%E9%A6%AE%E5%AC%BF%E8%87%BB-yen-chen-anne-feng/))
+Step3, [GWAS Quality Control](https://github.com/Annefeng/PBK-QC-pipeline) & Population Analysis (Reviewed by [Yen-Chen Anne Feng](https://fenglab520.github.io/author/%E9%A6%AE%E5%AC%BF%E8%87%BB-yen-chen-anne-feng/))
 
    3A. [Preliminary PCA](https://github.com/twobrassiere/Whole-Genome-base-GWAS-QC/tree/main/Step3_Genotype_QC_by_plink/Step3A_no_remove_batch_effects):
       Performed PCA on the merged cohort data without batch effect removal to visualize the initial data structure.
