@@ -1,7 +1,7 @@
 # Whole-Genome-base-GWAS-QC
 Our GWAS QC workflow is divided into five parts. Included below are the [pipeline diagrams and QC](https://github.com/twobrassiere/Whole-Genome-base-GWAS-QC/blob/main/Workflow_plot/GWAS%20workflow%20in%20SNP%20base.pdf) that define the filtering thresholds used for both [SNP-level and sample-level quality control](https://github.com/twobrassiere/Whole-Genome-base-GWAS-QC/blob/main/Workflow_plot/SNP%20number%20in%20GWAS%20workflow.pdf).
 
-[Step1](https://github.com/twobrassiere/Whole-Genome-base-GWAS-QC/tree/main/Step1_Joint_calling_by_IGG), Joint variant calling was performed separately for each cohort—comprising 748 female Taiwan Biobank participants and 269 female breast cancer patients  —using the DRAGEN Iterative gVCF Genotyper (IGG).
+[Step1](https://github.com/twobrassiere/Whole-Genome-base-GWAS-QC/tree/main/Step1_Joint_calling_by_IGG) Joint variant calling was performed separately for each cohort—comprising 748 female Taiwan Biobank participants and 269 female breast cancer patients  —using the DRAGEN Iterative gVCF Genotyper (IGG).
 
 [Step2](https://github.com/twobrassiere/Whole-Genome-base-GWAS-QC/tree/main/Step2_Variant_QC_by_bcftools) We utilized high-confidence regions from the HG002 reference sample and applied bcftools to ensure a missingness rate of less than 2% across each cohort.
 [Merged the VCF files](https://github.com/twobrassiere/Whole-Genome-base-GWAS-QC/blob/main/Step2_Variant_QC_by_bcftools/Variant_QC_in_269_BC_merge_748_TWBs.sh) from both cohorts without batch effect correction to perform subsequent Quality Control (QC) and ancestry analysis
